@@ -1,0 +1,17 @@
+:root{--ink:#2d1835;--pine:#4b1f5d;--sage:#cbb4d6;--cream:#f5eef7;--paper:#fffbff;--rose:#9d6aad;--line:rgba(68,30,81,.16);--shadow:0 24px 70px rgba(50,18,65,.15)}
+.site-header{background:rgba(255,251,255,.96);border-bottom-color:rgba(91,47,109,.15)}
+.site-header nav a:hover{color:#8d58a0}.call-pill,.primary{background:linear-gradient(135deg,#3d174d,#75418a)}
+.page-hero{background:radial-gradient(circle at 78% 28%,rgba(202,162,219,.28),transparent 24%),radial-gradient(circle at 18% 76%,rgba(114,61,134,.28),transparent 30%),linear-gradient(125deg,#21102a,#4b235c 58%,#26102f)!important;position:relative;overflow:hidden}
+.page-hero:after{content:'S';position:absolute;right:4vw;top:50%;transform:translateY(-48%);font:clamp(15rem,35vw,34rem)/.7 'Italiana';color:transparent;-webkit-text-stroke:1px rgba(238,216,246,.13);pointer-events:none}.page-hero>div{position:relative;z-index:1}
+.side-card{background:linear-gradient(145deg,#f5edf7,#eadbec);border:1px solid rgba(92,48,109,.12)}
+.service-nav{background:linear-gradient(135deg,#f0e5f3,#f9f4fa)}.service-card{border:1px solid rgba(87,43,104,.1)}.service-card .image{background-image:none!important;background:radial-gradient(circle at 70% 25%,rgba(255,255,255,.35),transparent 25%),linear-gradient(135deg,#351640,#8b5a9b)!important;position:relative}.service-card .image:after{content:'S';position:absolute;right:16px;bottom:-18px;font:8rem 'Italiana';color:rgba(255,255,255,.12)}
+.cta{background:linear-gradient(135deg,#4a2059,#885598)}footer{background:#24102c}
+.luxury-home{--black:#16091d;--champagne:#c9a7d4;--ivory:#f2e8f5;--muted:#b9a5be;background:#16091d}.lux-header{background:linear-gradient(180deg,rgba(24,9,31,.7),transparent)}
+.monogram{border-color:#c5a0d0;color:#d6b6df}.lux-kicker,.luxury-home i,.lux-contact>a{color:#d2addd}.gold-button{border-color:#bb91c8;background:rgba(144,87,160,.12)}
+.lux-hero{background:radial-gradient(circle at 78% 34%,rgba(170,103,192,.25),transparent 25%),radial-gradient(circle at 24% 78%,rgba(96,48,119,.25),transparent 30%),linear-gradient(112deg,#120718 0%,#281032 52%,#481f55 100%)!important}.lux-hero:after{-webkit-text-stroke-color:rgba(219,178,230,.14)}
+.marquee{border-color:#4e3155;color:#c0abc5}.editorial-intro{background:#eee3f1;color:#2a1730}.rituals{background:#180a20}.ritual-list article{border-color:#49304f}.ritual-list span{color:#c69dd1}
+.image-break{background:radial-gradient(circle at 20% 25%,rgba(197,137,216,.28),transparent 20%),radial-gradient(circle at 80% 70%,rgba(244,221,250,.09),transparent 30%),linear-gradient(135deg,#482451,#160b1c 62%,#33163d)!important}.image-break:before{border-color:rgba(210,165,222,.24)}
+.facial-section{background:#d9c1df;color:#28162e}.facial-menu{background:rgba(68,31,78,.2)}.facial-menu>div{background:#d9c1df}.dark-gold{color:#2b1731}
+.private-suite{background:linear-gradient(120deg,#16091d 0%,#2d1238 58%,#562461 100%)!important}.private-suite:before{-webkit-text-stroke-color:rgba(220,179,232,.12)}
+.lux-faq{background:#f1e7f3;color:#28162e}.lux-contact{background:#16091d}.lux-footer{background:#0e0512;border-color:#3d2742}
+@media(max-width:580px){.lux-hero{background:radial-gradient(circle at 78% 28%,rgba(173,104,194,.26),transparent 25%),linear-gradient(125deg,#120718,#3d1849)!important}}
