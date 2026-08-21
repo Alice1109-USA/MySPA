@@ -1,0 +1,13 @@
+/* Image-free art direction: atmosphere created only with color, type and geometry. */
+.lux-hero{overflow:hidden;background:radial-gradient(circle at 78% 35%,rgba(185,151,91,.18),transparent 25%),radial-gradient(circle at 76% 38%,rgba(236,222,192,.06),transparent 42%),linear-gradient(112deg,#070706 0%,#100e0b 51%,#211a11 100%)}
+.lux-hero:before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(118deg,transparent 0,transparent 68px,rgba(255,255,255,.018) 69px,transparent 70px);opacity:.7}
+.lux-hero:after{content:'S';position:absolute;right:4vw;top:50%;transform:translateY(-47%);font:clamp(24rem,48vw,52rem)/.7 'Italiana';color:transparent;-webkit-text-stroke:1px rgba(185,151,91,.12);pointer-events:none}
+.lux-hero>*{position:relative;z-index:1}
+.image-break{position:relative;overflow:hidden;background:radial-gradient(circle at 20% 25%,rgba(207,177,121,.25),transparent 20%),radial-gradient(circle at 80% 70%,rgba(255,248,232,.08),transparent 30%),linear-gradient(135deg,#2b2115,#0d0b08 62%,#1e170f)}
+.image-break:before{content:'';position:absolute;width:62vw;height:62vw;border:1px solid rgba(185,151,91,.22);border-radius:50%;right:-10vw;top:-28vw}
+.image-break:after{content:'';position:absolute;width:38vw;height:38vw;border:1px solid rgba(255,255,255,.08);border-radius:50%;right:2vw;top:-8vw}
+.image-quote{position:relative;z-index:1}
+.private-suite{position:relative;overflow:hidden;background:linear-gradient(120deg,#0a0907 0%,#18130e 58%,#332617 100%)}
+.private-suite:before{content:'SIGNATURE';position:absolute;right:-2vw;top:8%;font:clamp(5rem,14vw,14rem)/1 'Italiana';letter-spacing:.02em;color:transparent;-webkit-text-stroke:1px rgba(185,151,91,.11)}
+.private-suite>div{position:relative;z-index:1}
+@media(max-width:580px){.lux-hero{background:radial-gradient(circle at 75% 28%,rgba(185,151,91,.2),transparent 24%),linear-gradient(125deg,#070706,#1e170f)}}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://alice1109-usa.github.io/MySPA/sitemap.xml
