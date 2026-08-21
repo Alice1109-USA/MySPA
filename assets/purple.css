@@ -30,3 +30,26 @@
 @media(max-width:1200px){.site-header{grid-template-columns:minmax(190px,1fr) auto minmax(155px,1fr);column-gap:18px}.site-header nav{gap:17px}.site-header nav a{font-size:.63rem}.site-header .call-pill{padding:.75rem 1rem;font-size:.68rem}}
 @media(max-width:900px){.site-header{height:auto;min-height:76px;display:flex}.site-header nav{height:auto}.site-header nav>a,.site-header .nav-group>a{height:auto}.site-header .nav-group{display:block}.site-header .submenu{display:block;position:static;min-width:0;padding:4px 0 4px 16px;background:transparent;border:0;box-shadow:none}.site-header .submenu a{padding:4px 0;color:#7b6082}}
 @media(max-width:900px){.hero-visual{width:100%!important}.lux-hero:before{background:linear-gradient(90deg,rgba(22,10,24,.96),rgba(35,16,37,.7))!important}.home-gallery{grid-template-columns:1fr}.home-gallery figure{min-height:420px}.head-spa-feature{grid-template-columns:1fr}.head-spa-feature>div:last-child{padding:90px 7vw}}
+
+/* Selected direction 01: La Belle purple with luminous champagne gold. */
+:root{--ink:#311a37;--pine:#4b2358;--sage:#c9b3d1;--cream:#f5edf7;--paper:#fffaff;--rose:#8b5a9b;--gold:#e4c271;--line:rgba(75,35,88,.15);--shadow:0 26px 75px rgba(53,19,69,.16)}
+.site-header{background:rgba(255,250,255,.97);border-bottom-color:rgba(75,35,88,.15)}
+.site-header nav a:hover{color:#7b3f8d}.call-pill,.primary{background:linear-gradient(135deg,#351345,#6f3f80)}
+.brand span{border-color:#c59f4f;color:#9a7432}.brand small,.eyebrow{color:#745578}
+.page-hero{background:radial-gradient(circle at 80% 28%,rgba(182,112,201,.3),transparent 27%),linear-gradient(118deg,#2b0d39 0%,#4e205f 58%,#754287 100%)!important}
+.page-hero:after{-webkit-text-stroke-color:rgba(228,194,113,.16)}.page-hero .eyebrow{color:#e4c271}
+.side-card{background:#f5edf7;border-color:rgba(91,45,105,.14);border-top-color:#e4c271}
+.cta{background:linear-gradient(135deg,#351345,#6f3f80)}footer{background:#281031}
+.luxury-home{--black:#351345;--champagne:#e4c271;--ivory:#f5edf7;--muted:#cbb8cf;background:#351345}
+.lux-header{background:linear-gradient(180deg,rgba(47,13,62,.98),rgba(72,27,87,.56),transparent)}
+.monogram{border-color:#e4c271;color:#f0d795}.lux-kicker,.luxury-home i,.lux-contact>a{color:#e4c271}.gold-button{border-color:#e4c271;background:rgba(228,194,113,.08)}
+.lux-hero{background:radial-gradient(circle at 82% 30%,rgba(180,100,201,.34),transparent 30%),linear-gradient(112deg,#2b0d39 0%,#4e205f 56%,#754287 100%)!important}
+.lux-hero:before{background:linear-gradient(90deg,#2b0d39 0%,rgba(62,20,76,.97) 38%,rgba(74,28,87,.46) 74%,rgba(74,28,87,.1) 100%)!important}
+.marquee{border-color:#68426f;color:#d2bfd5}.editorial-intro{background:#f5edf7;color:#311a37}.rituals{background:#351345}.ritual-list article{border-color:#66426d}.ritual-list span{color:#e4c271}
+.facial-section{background:#dfcfe4;color:#311a37}.facial-menu{background:rgba(91,45,105,.22)}.facial-menu>div{background:#dfcfe4}.dark-gold{color:#4c2855}
+.private-suite{background:radial-gradient(circle at 82% 35%,rgba(186,108,205,.34),transparent 27%),linear-gradient(120deg,#351345 0%,#502160 60%,#754287 100%)!important}
+.head-spa-feature{background:linear-gradient(135deg,#351345,#6f3f80)}.head-spa-feature>div:last-child>p:not(.section-no):not(.lux-kicker){color:#dbcbe0}
+.lux-faq{background:#f5edf7;color:#311a37}.lux-contact{background:#351345}.lux-footer{background:#260d30;border-color:#62406a}
+.lux-header .submenu{background:rgba(53,19,69,.99);border-color:rgba(228,194,113,.32)}
+.site-header .submenu{background:#fffaff;border-color:rgba(91,45,105,.18);border-top-color:#e4c271}
+@media(max-width:580px){.lux-hero{background:radial-gradient(circle at 78% 28%,rgba(184,105,204,.32),transparent 27%),linear-gradient(125deg,#2b0d39,#6f3f80)!important}}
