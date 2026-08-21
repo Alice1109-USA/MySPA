@@ -132,3 +132,141 @@ footer{background:var(--sig-purple-950);color:#f5ecf5}
 @media(prefers-reduced-motion:reduce){
   *,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}
 }
+
+/* Editorial layout pass: the full page now carries the hero's visual authority. */
+.editorial-intro{
+  min-height:720px;
+  grid-template-columns:minmax(90px,.25fr) minmax(420px,1fr) minmax(320px,.7fr);
+  align-items:center;
+  padding:clamp(110px,11vw,180px) max(7vw,calc((100vw - 1500px)/2));
+  position:relative;
+  overflow:hidden;
+}
+.editorial-intro:after{
+  content:'SIGNATURE';
+  position:absolute;
+  right:-.04em;
+  bottom:-.22em;
+  font:clamp(7rem,17vw,16rem)/1 var(--sig-serif);
+  color:rgba(84,36,98,.045);
+  letter-spacing:-.03em;
+  pointer-events:none;
+}
+.editorial-intro h2{max-width:760px}
+.intro-copy{padding-top:9rem;border-top:1px solid rgba(199,161,92,.65)}
+
+.rituals{
+  grid-template-columns:minmax(340px,.7fr) minmax(520px,1.3fr);
+  gap:clamp(70px,9vw,150px);
+  padding:clamp(120px,12vw,190px) max(7vw,calc((100vw - 1500px)/2));
+}
+.ritual-heading{top:110px}
+.ritual-heading h2{max-width:560px}
+.ritual-list article{grid-template-columns:44px minmax(0,1fr) 94px;padding:45px 0}
+.ritual-list h3{font-size:clamp(2.1rem,3vw,3.2rem)}
+.ritual-list p{font-size:.9rem;line-height:1.75;max-width:50ch}
+.ritual-list em{text-align:right;padding-top:.5rem}
+
+.image-break{min-height:820px;padding:max(7vw,calc((100vw - 1500px)/2))}
+.image-quote{max-width:850px}
+.image-quote p{font-size:clamp(3rem,5vw,5.8rem)}
+
+.home-gallery{grid-template-columns:1.15fr .85fr 1fr;padding:clamp(24px,4vw,64px);gap:clamp(12px,2vw,30px);align-items:center}
+.home-gallery figure{min-height:0;aspect-ratio:4/5}
+.home-gallery figure:nth-child(2){aspect-ratio:4/6;transform:translateY(44px)}
+.home-gallery figure:nth-child(3){aspect-ratio:4/4.5;transform:translateY(-34px)}
+.home-gallery figcaption{left:24px;bottom:22px}
+
+.facial-section{
+  grid-template-columns:minmax(380px,.75fr) minmax(580px,1.25fr);
+  align-items:center;
+  gap:clamp(70px,9vw,150px);
+  padding:clamp(130px,12vw,190px) max(7vw,calc((100vw - 1500px)/2));
+}
+.facial-copy{position:sticky;top:120px;align-self:start;padding-top:60px}
+.facial-menu{align-self:center;box-shadow:0 32px 75px rgba(56,23,68,.12)}
+.facial-menu>div{min-height:280px;padding:42px}
+.facial-menu h3{font-size:clamp(2rem,3vw,3rem);margin-top:54px;min-height:auto}
+
+.head-spa-feature{grid-template-columns:1.08fr .92fr;min-height:800px}
+.head-spa-image{min-height:800px;padding:48px 0 48px 48px;background:var(--sig-cream)}
+.head-spa-image img{filter:saturate(.7) contrast(1.04);box-shadow:var(--sig-shadow)}
+.head-spa-feature>div:last-child{padding:clamp(70px,9vw,150px)}
+
+.private-suite{min-height:760px;padding:clamp(120px,11vw,180px) max(7vw,calc((100vw - 1500px)/2));align-items:center}
+.private-suite>div:last-child{border-top:1px solid rgba(199,161,92,.55);padding-top:50px}
+.lux-faq{grid-template-columns:minmax(80px,.2fr) minmax(360px,.75fr) minmax(480px,1fr);padding:clamp(120px,11vw,170px) max(7vw,calc((100vw - 1500px)/2));gap:clamp(45px,6vw,95px)}
+.faq-stack{padding-top:24px}
+.faq-stack details{padding:28px 0}
+.lux-contact{padding:clamp(150px,14vw,220px) 5vw}
+.lux-footer{padding:90px max(7vw,calc((100vw - 1500px)/2)) 36px}
+
+/* Inner pages: content becomes a magazine spread instead of a generic two-column template. */
+.page-hero{min-height:650px;padding:8rem max(7vw,calc((100vw - 1500px)/2)) 7rem}
+.page-hero>div{max-width:980px}
+.page-hero h1{font-size:clamp(4rem,7vw,7.8rem);max-width:920px}
+.page-hero p:not(.eyebrow){font-size:1.18rem;max-width:56ch;color:#ded2e0}
+.content-layout{
+  max-width:1500px;
+  margin:0 auto;
+  grid-template-columns:minmax(0,1fr) 330px;
+  gap:clamp(70px,9vw,150px);
+  padding:clamp(100px,10vw,160px) max(7vw,80px);
+}
+.prose{max-width:820px;font-size:1.04rem;line-height:1.85}
+.prose>p{max-width:68ch}
+.prose h2{font-size:clamp(2.8rem,4.5vw,4.8rem);margin-top:1.7em;margin-bottom:.45em;max-width:700px}
+.prose>.eyebrow+h2{margin-top:.35em}
+.service-photo{width:min(980px,calc(100vw - 12vw));margin:5rem 0 6rem}
+.service-photo img{aspect-ratio:16/10}
+.benefits{display:grid;grid-template-columns:1fr 1fr;column-gap:42px}
+.benefits li{padding:1.3rem 0}
+.side-card{top:120px;padding:38px 32px}
+.side-card h3{font-size:2.3rem;margin:.6rem 0 1.5rem}
+.phone-big{font-size:1.75rem}
+.cta{padding:clamp(110px,10vw,160px) 1rem}
+.cta h2{font-size:clamp(3.8rem,7vw,7rem)}
+footer{padding:80px max(7vw,calc((100vw - 1500px)/2)) 36px}
+
+@media(max-width:1100px){
+  .editorial-intro{grid-template-columns:90px 1fr;gap:50px}
+  .editorial-intro .intro-copy{grid-column:2;padding-top:50px}
+  .rituals{grid-template-columns:1fr;gap:80px}
+  .ritual-heading{position:static}
+  .facial-section{grid-template-columns:1fr}
+  .facial-copy{position:static;padding-top:0}
+  .lux-faq{grid-template-columns:80px 1fr}
+  .faq-stack{grid-column:2}
+}
+
+@media(max-width:900px){
+  .editorial-intro,.rituals,.facial-section,.lux-faq{padding:96px 7vw}
+  .editorial-intro{min-height:0;grid-template-columns:1fr;gap:36px}
+  .editorial-intro .intro-copy,.faq-stack{grid-column:auto}
+  .intro-copy{padding-top:34px}
+  .ritual-list article{grid-template-columns:34px minmax(0,1fr);gap:18px}
+  .ritual-list em{grid-column:2;text-align:left}
+  .image-break{min-height:600px;padding:8vw}
+  .home-gallery{grid-template-columns:1fr;padding:24px}
+  .home-gallery figure,.home-gallery figure:nth-child(2),.home-gallery figure:nth-child(3){aspect-ratio:4/5;transform:none}
+  .facial-menu>div{min-height:230px;padding:30px}
+  .head-spa-feature{grid-template-columns:1fr;min-height:0}
+  .head-spa-image{min-height:520px;padding:24px 24px 0}
+  .private-suite{min-height:660px;padding:100px 7vw}
+  .lux-faq{grid-template-columns:1fr;gap:28px}
+  .page-hero{min-height:560px;padding:7rem 7vw 5rem}
+  .content-layout{grid-template-columns:1fr;padding:90px 7vw;gap:70px}
+  .service-photo{width:100%}
+  .side-card{position:static}
+}
+
+@media(max-width:580px){
+  .editorial-intro,.rituals,.facial-section,.lux-faq{padding:78px 6vw}
+  .home-gallery{padding:14px}
+  .head-spa-image{min-height:420px;padding:14px 14px 0}
+  .head-spa-feature>div:last-child{padding:78px 7vw}
+  .benefits{grid-template-columns:1fr}
+  .prose h2{font-size:2.65rem}
+  .service-photo{margin:3.5rem 0 4.5rem}
+  .lux-contact{padding:120px 6vw}
+}

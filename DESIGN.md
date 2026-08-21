@@ -46,7 +46,16 @@ Gold is an accent, not a fill color for large areas. Purple remains dominant onl
 - At 900px and below, navigation becomes a stacked menu and imagery becomes full-width.
 - Service-photo offset frames contract on smaller screens to avoid horizontal overflow.
 
+## Editorial Layout
+
+- Homepage sections use contrasting spatial rhythms rather than repeating the same two-column block.
+- The philosophy section uses a wide editorial grid and oversized low-contrast brand lettering.
+- Massage services use a sticky introduction beside a generous ruled list.
+- The three-image gallery deliberately varies image height on desktop and returns to an even vertical sequence on mobile.
+- Facial care uses a sticky narrative column and a larger treatment matrix.
+- Head Spa is expressed as a full-width image-and-copy feature.
+- Inner pages use a large title field followed by a magazine-like reading column, framed service image, and restrained visit sidebar.
+
 ## Content Boundary
 
 Visual styling may change, but service copy, business facts, URL paths, phone number, gift-card link and Redmond SEO content remain product truth and require explicit approval to change.
-
