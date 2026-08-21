@@ -2,7 +2,7 @@
 
 ## Direction
 
-Editorial luxury with recognizable La Belle purple heritage. The visual system is composed, private, and image-led: deep royal aubergine creates atmosphere; warm cream carries long-form reading; antique gold is reserved for actions and precise details.
+Sophisticated editorial luxury with recognizable La Belle purple heritage. The visual system uses magazine-inspired grids, elegant typography, generous whitespace, full-bleed imagery, asymmetric composition, refined details, and luxurious proportions. Deep royal aubergine creates atmosphere; warm cream carries long-form reading; antique gold is reserved for actions and precise details.
 
 ## Color
 
